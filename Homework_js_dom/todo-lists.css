@@ -5,6 +5,7 @@ h1 {
 form {
     text-align: center;
     margin-bottom: 20px;
+    padding: 5px;
 }
 
 li {
@@ -28,3 +29,24 @@ li.completed {
     margin-left: 10px;
 }
 
+.centered-container {
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+#saveBtn {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
